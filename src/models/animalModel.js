@@ -10,7 +10,7 @@ const animalSchema = mongoose.Schema({
     },
     tipo: {
         type: String,
-        required: true,
+        required: true,+
     },
     fecha: {
         type: Date,
